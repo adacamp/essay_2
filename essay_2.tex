@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+
+\usepackage{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Required for accented characters
+\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+\begin{flushright} % Right align
+{\LARGE\@title} % Increase the font size of the title
+
+\vspace{50pt} % Some vertical space between the title and author name
+
+{\large\@author} % Author name
+\\\@date % Date
+
+\vspace{40pt} % Some vertical space between the author block and abstract
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\title{\textbf{Latex Assignment}\\ % Title
+The day physics changed the history of car racing-- } % Subtitle
+
+\author{\textsc{Ada Campagna} % Author
+\\{\textit{Sarah Lawrence College}}} % Institution
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+
+
+\vspace{30pt} % Some vertical space between the abstract and first section
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section*{The Famous Race of Gerard and Toby}
+
+Gerard and Toby, both coincidentally from South Carolina, have been car racing rivals for a long time now. Every race, they always finish neck and neck so tension between them is uncomfortably high. Today they are racing to see who gets the title of person able to drive a car the fastest around a circle. The whole world is watching them. Everything is riding on this race: fame, honor, money, potentially dignity (but who can say, I don't know these guys.) The race starts. They keep at the same pace for a couple of laps but, in a shocking turn of events, Toby suddenly starts  to lag behind Gerard. Toby's wife begins sobbing and  the crowd waits in silent anticipation. Toby feels a sickening drop in his stomach, all could be lost. Luckily, Toby remembers he has taken a physics course. Making a split second decision,  He pulls out a pencil and paper and starts calculating (luckily these incredible pieces of paper, filled with Toby's calculations, have been found.) 
+
+
+Below are the actual, fascinating, calculations Toby made in his very fast car on this historic day, a record that will live on until the next person races even faster around the circle. 
+
+%------------------------------------------------
+
+\section*{The Calculations}
+
+First step is to record my givens. My car is 4m wide and 5m long and so is that bastard Gerard's. We are both traveling at a velocity of 50 m/s and from what I measured earlier today, on my time off, the radius of the track is 40m. It appears that Gerard is 1m ahead of me which means passing him is doable. First, I have to get over to the side of him and enter the second lane then I have to accelerate, move ahead of Gerard, move back into the first lane and only then can I slow back down to 50m/s. My car can accelerate from 50m/s to 60m/s in two seconds stay at 60m/s for two seconds and then return to 50m/s in 2 seconds. This means with the correct calculations I can not only beat Gerard, like I was born to do, but also understand exactly how I did it.\\
+
+
+\begin{flushleft}
+Now I can focus on the important stuff or, in other words, the total acceleration needed in order to pass Gerard.\newline
+
+
+\centering The total acceleration formula is: 
+$$\overrightarrow{a}= r\alpha \tilde{\theta}-r\omega^2 \tilde{r}+ 2v_r \omega \tilde{\theta}+ a_r \tilde{r}$$\\
+
+
+Tangential Acceleration: $$r\alpha \tilde{\theta}$$\\
+Centripetal Acceleration: $$r\omega^2 \tilde{r}$$\\
+Coriolis Acceleration: $$2v_r \omega \tilde{\theta}$$\\
+Radial Acceleration: $$a_r \tilde{r}$$\\
+\begin{flushleft}
+
+Now what do these accelerations mean?\\
+\begin{itemize}
+\item Tangential Acceleration is taking into consideration how hard I hit the gas.\\
+\item Centripetal Acceleration is taking into account the acceleration needed while moving in a circle.\\
+\item Coriolis Acceleration is the acceleration needed to keep up with Gerard or to match his \omega.\\
+\item Radial Acceleration is looking at the acceleration of moving in and out of the two lanes.\\
+\end{itemize}
+
+I can break apart my passing maneuver into three parts:\\
+\begin{enumerate}
+\item The total acceleration needed in order to keep pace and move into a different lane 
+\item The total acceleration needed to, not only keep up, but pass Gerard in the second lane.
+\item The total acceleration needed to switch back into the lane in front of Gerard where, then, I can embrace victory with open arms! 
+\end{enumerate}
+
+
+\textbf{Part one of passing maneuver that I will now name The Cobra:}\newline
+
+Looking at my total acceleration formula, I'm going around in a circle, so centripetal is important. I need to keep pace with Gerard, even though I am changing position, so coriolis is important. I am changing my position along the radius by switching lanes, so Radial is important. 
+$$r\omega^2 \tilde{r}+ 2v_r \omega \tilde{\theta}+ a_r \tilde{r}$$
+Calculations:\newline
+$$\omega_o = V/R = 50/40 = 1.25 rad/sec$$
+$$ Tangential acceleration = v^2 /R$$
+$$Tangential acceleration = (50)^2 /40 = 62.5$$
+$$Radial acceleration= $$ \centering the acceleration of the car as it moves from it's current position into the second lane
+$$Radial acceleration= a_r$$ \centering (since I don't know the numerical value)
+$$Coriolis Acceleration= 2V_r V_tan / R$$
+$$Coriolis Acceleration= 2V_r 62.5/40 = 3.125V_r$$
+$$\overrightarrow{a}= 62.5 \tilde{r} + 3.125V_r \tilde{\theta} + a_r\tilde{r}$$
+$$\surd{(3.125V_r)^2 + (62.5 + a_r)^2}
+
+\newline
+
+
+
+\textbf{Part two of The Cobra:}\newline
+
+I am now in the second lane, which means my radius has changed by two meters, but in this part of the maneuver I am not changing radial position. In this maneuver I have to travel past Gerard's car so in the third part of The Cobra I can move in front of Gerard. In this part, the only pieces of the formula that are important are the centripetal acceleration (keeping in mind the new radius) because I'm still moving in a circle and tangential Acceleration because now I want to accelerate from 50m/s to 60m/s. 
+$$r\alpha \tilde{\theta}-r\omega^2 \tilde{r}$$
+Calculations:\newline
+$$\omega_o = V_i /R = 50/42 = 1.19 rad/sec$$
+$$\alpha = a/R = 5/42 = .119 rad/sec^2$$
+$$\omega(t) = \omega_o + \alpha . t$$
+$$\omega(t) = 1.19 + .119(2) = 1.428$$ 
+$$V(t)= R. \omega(t)$$ 
+$$V(t)= 42 ^. 1.428 = 60$$ 
+$$ Tangential acceleration = v^2 /R$$
+$$Tangential acceleration = (60)^2 /42 = 85.7$$
+$$Centripetal acceleration= a.R$$
+$$Centripetal acceleration= .119 ^. 42 = 5$$ 
+$$\overrightarrow{a}= 5 \tilde{\theta}- 85.7\tilde{r}$$
+$$\surd{(5)^2 + (85.7)^2} = 85.85m/sec^2$$
+\newline
+
+\textbf{Part three of The Cobra:}\newline
+
+The third part is very much like the first part, except now I am 1m ahead  moving at 60m/s and I need to move back into the first lane so that I get ahead of Gerard. After this, I can decelerate back to 50 m/s. In this case, like the first part, centripetal, coriolis and radial acceleration are all important.
+$$r\omega^2 \tilde{r}+ 2v_r \omega \tilde{\theta}+ a_r \tilde{r}$$
+Calculations:\newline
+$$\omega_o = V/R = 60/42 = 1.43 rad/sec$$
+$$ Tangential acceleration = v^2 /R$$
+$$Tangential acceleration = (60)^2 /42 = 85.7$$
+$$Radial acceleration= $$ \centering the acceleration of the car as it moves from it's current position back into the first lane
+$$Radial acceleration= a_r$$ \centering (since I don't know the numerical value)
+$$Coriolis Acceleration= 2V_r V_tan / R$$
+$$Coriolis Acceleration= 2V_r 85.7/42 = 4.08V_r$$
+$$\overrightarrow{a}= 85.7 \tilde{r} + 4.08V_r \tilde{\theta} + a_r\tilde{r}$$
+$$\surd{(4.08V_r)^2 + (85.7 + a_r)^2}$$
+\newline
+
+
+The final deceleration would only involve tangential and centripetal acceleration. 
+$$r\alpha \tilde{\theta}-r\omega^2 \tilde{r}$$
+Calculations:\newline
+$$\omega_o = V_i /R = 60/40 = 1.5 rad/sec$$
+$$\alpha = a/R = -5/40 = -.125 rad/sec^2$$
+$$\omega(t) = \omega_o + \alpha . t$$
+$$\omega(t) = 1.5 + -.125(2) = 1.25$$ 
+$$V(t)= R. \omega(t)$$ 
+$$V(t)= 40 ^. 1.25 = 50$$ 
+$$ Tangential acceleration = v^2 /R$$
+$$Tangential acceleration = (50)^2 /40 = 62.5$$
+$$Centripetal acceleration= a.R$$
+$$Centripetal acceleration= -.125 ^. 40 = -5$$ 
+$$\overrightarrow{a}= -5 \tilde{\theta}- 62.5\tilde{r}$$
+$$\surd{(-5)^2 + (62.5)^2} = 62.69 m/sec^2$$
+
+\newline
+\section*{Conclusion}
+
+Toby won the race that day giving him everything he has ever wanted and changing the very nature of race car driving. Gerard, miserable in his defeat, gave up race car driving and followed a different dream of becoming a DJ. Gerard become a mediocre DJ and later became a manager at Nordstroms. After this we lost contact with Gerard. I hope he is doing well, he was a nice guy.
+
+%------------------------------------------------
+
+
+\end{document}
