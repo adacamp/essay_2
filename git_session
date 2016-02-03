@@ -1,0 +1,29 @@
+Last login: Fri Jan  1 17:41:55 on console
+Adas-Air:~ ginocampagna$ cd
+Adas-Air:~ ginocampagna$ cd documents
+Adas-Air:documents ginocampagna$ cd physics
+Adas-Air:physics ginocampagna$ cd essay2
+Adas-Air:essay2 ginocampagna$ ls
+essay_2.pdf	essay_2.tex
+Adas-Air:essay2 ginocampagna$ git init
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+Adas-Air:essay2 ginocampagna$ git init
+Initialized empty Git repository in /Users/ginocampagna/Documents/physics/essay2/.git/
+Adas-Air:essay2 ginocampagna$ git add .
+Adas-Air:essay2 ginocampagna$ git commit -m "adding essay pdf and tex"
+[master (root-commit) 2f2b322] adding essay pdf and tex
+ 2 files changed, 204 insertions(+)
+ create mode 100644 essay_2.pdf
+ create mode 100644 essay_2.tex
+Adas-Air:essay2 ginocampagna$ git remote add origin https://github.com/adacamp/essay_2.git
+Adas-Air:essay2 ginocampagna$ git push origin master
+Username for 'https://github.com': adacamp
+Password for 'https://adacamp@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 79.93 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/adacamp/essay_2.git
+ * [new branch]      master -> master
+Adas-Air:essay2 ginocampagna$ 
